@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600&family=Josefin+Slab:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,600;1,100;1,200;1,400&family=Mulish:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+</head>
+
+<body>
+    <div class="all">
+        <header>
+            <h1>Math<span>Fast</span></h1>
+            <ul class="menu">
+                <li class="menu-item">Contato</li>
+                <li class="menu-item">Home</li>
+                <li class="menu-item">Sobre Nós</li>
+            </ul>
+        </header>
+        <div class="container">
+            <h1>CALCULADORA ONLINE DA FUNÇÃO QUADRÁTICA</h1>
+            <H2>Ache suas raízes do jeito mais rápido!</H2>
+            <p class="text-information">A função de segundo grau, também chamada de função quadrática ou função
+                polinomial do 2° grau, é escrita como: <span class="form-function">f(x) = ax² + bx + c</span>. Sendo os
+                coeficientes "a, b e c" números reais e "a" diferente de 0 (zero).
+
+                O grau da função é determinado de acordo com o maior expoente que a incógnita x assume. Ou seja, se em
+                uma função a incógnita x não tiver nenhum expoente, ela é classificada como de primeiro grau, mas se ela
+                tiver o número dois como maior expoente, ela é classificada como de segundo grau.</p>
+            <div class="example-texts">
+                <p>Encontre suas raízes!</p>
+                <p>Forma da função:</p>
+                <p class="form-function">ax² + bx + c = 0</p>
+                <p>Ex.: 6x² + 4x + 7 = 0</p>
+                <p class="form-function">a = 6</p>
+                <p class="form-function">b = 4</p>
+                <p class="form-function">c = 7</p>
+            </div>
+            <div class="input-texts">
+                <div class="title-input-texts">
+                    <p><i class="fas fa-calculator"></i>Encontre suas raízes!</p>
+                </div>
+                <label>
+                    a
+                    <input class="input-coeficient" type="number" id="coeficiente-a">
+                </label>
+                <label>
+                    b
+                    <input class="input-coeficient" type="number" id="coeficiente-b">
+                </label>
+                <label>
+                    c
+                    <input class="input-coeficient" type="number" id="coeficiente-c">
+                </label>
+                <div class="result">
+                <p>Resultado:</p>
+                <p id="x1">X1</p>
+                <p id="x2" class="x2">X2</p>
+            </div>
+                <button type="button" name="button" onclick="calculate()">Calcular</button>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-content">
+                <p>
+                    Copyright &copy; 2021, JGSL - Todos os direitos reservados
+                </p>
+                <div class="social-list">
+                    <ul>
+                        <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+<script src="./first-project.js"></script>
+
+</html>
