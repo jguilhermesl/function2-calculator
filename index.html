@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculadora de Função Quadrática</title>
     <link rel="stylesheet" type="text/css" href="./styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -48,24 +48,25 @@
                 <div class="title-input-texts">
                     <p><i class="fas fa-calculator"></i>Encontre suas raízes!</p>
                 </div>
-                <label>
-                    a
-                    <input class="input-coeficient" type="number" id="coeficiente-a">
-                </label>
-                <label>
-                    b
-                    <input class="input-coeficient" type="number" id="coeficiente-b">
-                </label>
-                <label>
-                    c
-                    <input class="input-coeficient" type="number" id="coeficiente-c">
-                </label>
+                <div class="coeficients-box">
+                    <label>
+                        a
+                        <input class="input-coeficient" type="number" id="coeficiente-a">
+                    </label>
+                    <label>
+                        b
+                        <input class="input-coeficient" type="number" id="coeficiente-b">
+                    </label>
+                    <label>
+                        c
+                        <input class="input-coeficient" type="number" id="coeficiente-c">
+                    </label>
+                    <button type="button" name="button" onclick="calculate()">Calcular</button>
+                </div>
                 <div class="result">
-                <p>Resultado:</p>
-                <p id="x1">X1</p>
-                <p id="x2" class="x2">X2</p>
-            </div>
-                <button type="button" name="button" onclick="calculate()">Calcular</button>
+                    <p id="x1">X'</p>
+                    <p id="x2" class="x2">X''</p>
+                </div>
             </div>
         </div>
         <footer>
@@ -85,6 +86,6 @@
     </div>
 
 </body>
-<script src="./first-project.js"></script>
+<script src="./script.js"></script>
 
 </html>

@@ -18,8 +18,8 @@ function calculate() {
         let x1 = (-(b) + Math.sqrt(delta, 2)) / (2 * a)
         let x2 = (-(b) - Math.sqrt(delta, 2)) / (2 * a)
 
-        resultX1.innerHTML = x1
-        resultX2.innerHTML = x2
+        resultX1.innerHTML = x1.toFixed(2)
+        resultX2.innerHTML = x2.toFixed(2)
     }
 
     if (delta < 0) {
@@ -31,8 +31,8 @@ function calculate() {
         let x1 = -(b) / (2 * a)
         let x2 = -(b) / (2 * a)
 
-        resultX1.innerHTML = x1
-        resultX2.innerHTML = x2
+        resultX1.innerHTML = x1.toFixed(2)
+        resultX2.innerHTML = x2.toFixed(2)
         document.querySelector(".x2").classList.toggle("x2-none");
     }
 
