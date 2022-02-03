@@ -1,4 +1,4 @@
-# My Portfolio 
+# 2nd grade function calculator 
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
@@ -13,7 +13,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Corpo com HTML.
 - [x] Estilização com CSS.
 - [x] Cálculo por JavaScript.
-- [ ] Responsividade
+- [x] Responsividade
 
 ## 🤝 Colaborador
 

@@ -40,11 +40,11 @@ function calculate() {
 
     console.log(x1)
     console.log(x2)
-
-
 }
 
-/* let delta = Math.pow(b,2) - 4*a*c
-let x1 = (-b + Math.sqrt(delta,2)) / (2*a)
+let hamburguer = document.querySelector(".hamburguer"); 
 
-console.log(x1) */
+hamburguer.addEventListener("click", function(){
+    document.querySelector(".menu-nav").classList.toggle("show-menu");
+    document.querySelector(".container").classList.toggle("show-menu");
+}); 

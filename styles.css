@@ -31,7 +31,6 @@ header {
 
 header ul { 
     display: flex; 
-    position: relative;
 }
 
 header li {
@@ -52,10 +51,6 @@ header h1 {
     font-family: var(--font-primary);
     font-weight: 100;
     text-shadow: .3rem .3rem 2px rgba(0, 0, 0, .4 );
-}
-
-span {
-    color: #1e0041;
 }
 
 .container {
@@ -113,7 +108,7 @@ span {
 
 .title-input-texts {
     font-family: var(--font-terciary);
-    max-width: 50vw;
+    max-width: 100%;
     background: #1e0041;
     color: #fff;
     font-weight: 300;
@@ -157,7 +152,7 @@ span {
     color: #fff;
     align-items: center;
     text-align: center;
-    margin-left: 30%;
+    margin-left: 22%;
     margin-bottom: 1px;
 }
 
@@ -223,6 +218,115 @@ footer {
 
 .social-list ul {
     display: flex;
+}
+
+@media only screen and (max-width: 880px) {
+    header {
+        align-items: start;
+    }
+
+    .hamburguer {
+        width: 1.5rem;
+        height: 1.5rem;
+        position: fixed;
+        z-index: 100;
+        right: 3rem;
+        top: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        cursor: pointer;
+    }
+
+    .line {
+        width: 100%;
+        background-color: black;
+        height: .15rem;
+        border-radius: 1000px;
+    }
+    
+    
+    .menu-nav { 
+        position: absolute;
+        display: block; 
+        top: 3rem;
+        right: 0rem;
+        height: 10rem;
+        width: 100%;
+        background: #fff;
+        opacity: 0;
+        transition: 0.5s;
+    }
+
+    .menu-nav.show-menu {
+        opacity: 1;
+    }
+    
+    header li {
+        padding: 5px 10px;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: 0.5s;
+        text-align: center;
+    }
+
+    .container {
+        max-width: 90vw;
+    }
+
+    .text-information {
+        max-width: 70vw; }
+
+    .input-texts {
+        max-width: 70vw;
+    }
+
+    .input-texts button {
+        margin-left: 10%; }
+
+@media only screen and (max-width: 880px) {
+            footer {
+                height: 10rem;
+                text-align: center;
+            
+            }
+            
+            .footer-content {
+                text-align: center;
+                display: grid;
+                grid-template-columns: 1;
+                grid-template-rows: 2;
+                grid-column: 1 /2 ;
+                grid-row: 2 / 3;
+                grid-gap: 0.5rem;
+            }
+            .social-list {
+                display:grid;
+                grid-column: 1 /2 ;
+                grid-row: 4 / 5;
+            }
+        }   
+        
+@media only screen and (max-width: 600px){
+    .coeficients-box {
+            display: block;
+            height: 10rem;
+            align-items: center;
+        } 
+    .coeficients-box label {
+            margin-top: 10px;
+            text-align: center;
+            margin-left: 0px;
+    }
+
+    .coeficients-box input {
+        width: 150px;
+    }
+
+    .coeficients-box button {
+        margin: 10px auto;
+    
+    }
 }
 
 
