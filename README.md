@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # 2nd grade function calculator 
+=======
+# Calculadora do 2º Grau
+>>>>>>> 8bad5049bd5af83917d1c7491a7299d235c619a9
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
