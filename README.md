@@ -30,7 +30,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
   </tr>
 </table>
 
-## Tecnologias
+## 🚀 Tecnologias
 Tecnologias usadas no projeto:
 
 <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white" />
